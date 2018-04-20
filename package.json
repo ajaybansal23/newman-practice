@@ -1,0 +1,17 @@
+{
+  "name": "newman-practice",
+  "version": "1.0.0",
+  "description": "project for storing postman tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/Trello.postman_collection.json"
+  },
+  "author": "Ajay Bansal",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
